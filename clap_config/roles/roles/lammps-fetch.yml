@@ -1,0 +1,17 @@
+- name: "Fetch results"
+  hosts: all
+  gather_facts: true
+  tasks:
+  - name: "Find LAMMPS outputs files"
+    find: 
+      paths: "/home/ubuntu/mo833-lammps"
+      recurse: no 
+      patterns: "{{ bench }}*"
+    register: files_to_copy
+
+  - name: "Copy files"
+    fetch: 
+      src: "{{ item.path }}"
+      dest: "{{ results_dir }}"
+      flat: no
+    with_items: "{{ files_to_copy.files }}"

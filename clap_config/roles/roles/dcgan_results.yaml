@@ -1,0 +1,7 @@
+- name: "Acao de resultados"
+  hosts: all
+  gather_facts: true
+  tasks:
+  - name: "Task 1: Lista as variáveis recebidas"
+    debug:
+      msg: "Variaveis: results_dir: {{ results_dir }}; user_dir: {{ user_dir }}"

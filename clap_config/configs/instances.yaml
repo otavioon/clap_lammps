@@ -1,0 +1,119 @@
+lammps-type-t2.medium:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: t2.medium
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-type-t2.large:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: t2.large
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-c5.large:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: c5.large
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-m5.2xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: m5.2xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-r5.xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: r5.xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-m5a.2xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: m5a.2xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-r5a.xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: r5a.xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-r4.xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: r4.xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-r4.2xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: r4.2xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-m4.2xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: m4.2xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-r5.2xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: r5.2xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-r5a.2xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: r5a.2xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-c5.4xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: c5.4xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-r5.4xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: r5.4xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16
+
+lammps-x1e.2xlarge:
+    provider: aws-config-us-east-1
+    login: login-ubuntu
+    flavor: x1e.2xlarge
+    image_id: ami-0650ed74180c860f3
+    security_group: open-security-group
+    boot_disk_size: 16

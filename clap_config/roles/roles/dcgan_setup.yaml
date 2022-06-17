@@ -1,0 +1,27 @@
+- name: "Acao de setup"
+  hosts: all
+  tasks:
+  # Teste simples. A mensagem "Teste SSH OK!" deve ser impressa na tela
+  - name: "Task 1: Lista as variáveis recebidas"
+    debug:
+      msg: "Variaveis: efs_host: {{ efs_host }}; efs_mount_point: {{ efs_mount_point }}; user_dir: {{ user_dir }}"
+
+  # Task para criar o grupo docker
+  - name: "Task 2: Cria o grupo docker"
+    become: true
+    group:
+      name: docker
+      state: present
+
+  # Task utilizada para adicionar o usuário ubuntu ao grupo Docker
+  - name: "Task 3: Adicionar usuario ubuntu ao grupo docker"
+    become: true
+    user:
+      name: ubuntu
+      groups: docker
+      append: yes
+
+  # Reinicia a conexão SSH
+  - name: "Task 4: Reinicia a conexão ssh para que a alterações de grupos tenham efeito"
+    ansible.builtin.meta:
+      reset_connection

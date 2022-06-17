@@ -1,0 +1,12 @@
+- name: "Run LAMMPS application"
+  hosts: all
+  gather_facts: false
+  tasks:
+
+  - name: "Run LAMMPS"
+    shell: >
+      bash -c "./04-run-simple-LAMMPS-workload-MPI-localhost.sh {{ bench }}"
+    args:
+      chdir: "/home/ubuntu/mo833-lammps/"
+    async: 1200 # Max 20min
+    poll: 30    # Poll every 30sec

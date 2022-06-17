@@ -1,0 +1,17 @@
+---
+actions:
+  run-localhost:
+    playbook: roles/lammps-run-localhost.yml
+    description: Run LAMMPS docker MPI on a single-host
+    vars:
+    - name: bench
+      description: Name of benchmark to run
+
+  fetch:
+    playbook: roles/lammps-fetch.yml
+    description: Fetch LAMMPS results
+    vars:
+    - name: bench
+      description: Name of benchmark to fetch
+    - name: results_dir
+      description: Directory to store results

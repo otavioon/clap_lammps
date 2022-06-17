@@ -1,0 +1,85 @@
+setups:
+  lammps-group:
+    roles:
+    - name: lammps
+
+clusters:
+  lammps-cluster:
+    after:
+    - lammps-group
+
+    nodes:
+      cluster-lammps-type-t2.medium:
+        type: lammps-type-t2.medium
+        count: 1
+        min_count: 1
+
+      cluster-lammps-type-t2.large:
+        type: lammps-type-t2.large
+        count: 1
+        min_count: 1
+
+      cluster-lammps-c5.large:
+        type: lammps-c5.large
+        count: 1
+        min_count: 1
+
+      cluster-lammps-m5.2xlarge:
+        type: lammps-m5.2xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-r5.xlarge:
+        type: lammps-r5.xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-m5a.2xlarge:
+        type: lammps-m5a.2xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-r5a.xlarge:
+        type: lammps-r5a.xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-r4.xlarge:
+        type: lammps-r4.xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-r4.2xlarge:
+        type: lammps-r4.2xlarge 
+        count: 1
+        min_count: 1
+
+      cluster-lammps-m4.2xlarge:
+        type: lammps-m4.2xlarge 
+        count: 1
+        min_count: 1
+
+      cluster-lammps-r5.2xlarge:
+        type: lammps-r5.2xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-r5a.2xlarge:
+        type: lammps-r5a.2xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-c5.4xlarge:
+        type: lammps-c5.4xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-r5.4xlarge:
+        type: lammps-r5.4xlarge 
+        count: 1
+        min_count: 1
+        
+      cluster-lammps-x1e.2xlarge:
+        type: lammps-x1e.2xlarge 
+        count: 1
+        min_count: 1

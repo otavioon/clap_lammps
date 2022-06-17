@@ -1,0 +1,900 @@
+-   cloud_instance_id: i-08fc1b9a467af9da7
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: t2.medium
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-type-t2.medium
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468073.2280767
+    extra:
+        architecture: x86_64
+        dns: ec2-34-235-128-173.compute-1.amazonaws.com
+        instance_id: i-08fc1b9a467af9da7
+        instance_tags:
+            CreatedWith: CLAP
+            Name: AndrewYoung-a33c25ce
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-19-246.ec2.internal
+        private_ip: 172.31.19.246
+        subnet_id: subnet-9bf928d1
+        vpc_id: vpc-dd94f4a6
+    ip: 34.235.128.173
+    nickname: AndrewYoung
+    node_id: a33c25ce386f40c7a56203c42a53b94b
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-type-t2.medium
+    type: cloud
+    update_time: 1655468416.8937182
+-   cloud_instance_id: i-0c9c043b95ee9f14b
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: t2.large
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-type-t2.large
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468104.9969254
+    extra:
+        architecture: x86_64
+        dns: ec2-3-234-239-115.compute-1.amazonaws.com
+        instance_id: i-0c9c043b95ee9f14b
+        instance_tags:
+            CreatedWith: CLAP
+            Name: BrianKeffer-0e4d5dc5
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-52-208.ec2.internal
+        private_ip: 172.31.52.208
+        subnet_id: subnet-3343f63c
+        vpc_id: vpc-dd94f4a6
+    ip: 3.234.239.115
+    nickname: BrianKeffer
+    node_id: 0e4d5dc54b4d47c4a17f948a4f3f5662
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-type-t2.large
+    type: cloud
+    update_time: 1655468417.0005977
+-   cloud_instance_id: i-0073d08bbc5984246
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: c5.large
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-c5.large
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468125.1604338
+    extra:
+        architecture: x86_64
+        dns: ec2-3-84-250-161.compute-1.amazonaws.com
+        instance_id: i-0073d08bbc5984246
+        instance_tags:
+            CreatedWith: CLAP
+            Name: JerryLindsay-24757db2
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-93-85.ec2.internal
+        private_ip: 172.31.93.85
+        subnet_id: subnet-75555a5a
+        vpc_id: vpc-dd94f4a6
+    ip: 3.84.250.161
+    nickname: JerryLindsay
+    node_id: 24757db2e5f34f918612837a477bc56f
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-c5.large
+    type: cloud
+    update_time: 1655468417.1036081
+-   cloud_instance_id: i-0e880502a49bcfcf6
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: m5.2xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-m5.2xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468148.8402405
+    extra:
+        architecture: x86_64
+        dns: ec2-54-87-195-2.compute-1.amazonaws.com
+        instance_id: i-0e880502a49bcfcf6
+        instance_tags:
+            CreatedWith: CLAP
+            Name: ThomasRamirez-ecb1fd4e
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-21-0.ec2.internal
+        private_ip: 172.31.21.0
+        subnet_id: subnet-9bf928d1
+        vpc_id: vpc-dd94f4a6
+    ip: 54.87.195.2
+    nickname: ThomasRamirez
+    node_id: ecb1fd4e4ba54a40974311b2e1324c59
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-m5.2xlarge
+    type: cloud
+    update_time: 1655468417.2060769
+-   cloud_instance_id: i-0aa1778592d79296c
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: r5.xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-r5.xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468167.416826
+    extra:
+        architecture: x86_64
+        dns: ec2-52-23-175-159.compute-1.amazonaws.com
+        instance_id: i-0aa1778592d79296c
+        instance_tags:
+            CreatedWith: CLAP
+            Name: EdwardBandy-295d785c
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-92-147.ec2.internal
+        private_ip: 172.31.92.147
+        subnet_id: subnet-75555a5a
+        vpc_id: vpc-dd94f4a6
+    ip: 52.23.175.159
+    nickname: EdwardBandy
+    node_id: 295d785cdc184ba08fe2f0a97dd17c48
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5.xlarge
+    type: cloud
+    update_time: 1655468417.3086188
+-   cloud_instance_id: i-0ecf85520a0dfe907
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: m5a.2xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-m5a.2xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468191.392047
+    extra:
+        architecture: x86_64
+        dns: ec2-3-80-110-155.compute-1.amazonaws.com
+        instance_id: i-0ecf85520a0dfe907
+        instance_tags:
+            CreatedWith: CLAP
+            Name: CarlTravers-df296cc7
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-23-36.ec2.internal
+        private_ip: 172.31.23.36
+        subnet_id: subnet-9bf928d1
+        vpc_id: vpc-dd94f4a6
+    ip: 3.80.110.155
+    nickname: CarlTravers
+    node_id: df296cc77ba94ce09571104c02c4f22b
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-m5a.2xlarge
+    type: cloud
+    update_time: 1655468417.4104612
+-   cloud_instance_id: i-0e6b8caf22dff9bd9
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: r5a.xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-r5a.xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468213.749584
+    extra:
+        architecture: x86_64
+        dns: ec2-18-205-41-40.compute-1.amazonaws.com
+        instance_id: i-0e6b8caf22dff9bd9
+        instance_tags:
+            CreatedWith: CLAP
+            Name: RubenNeonakis-f19bed6a
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-60-30.ec2.internal
+        private_ip: 172.31.60.30
+        subnet_id: subnet-3343f63c
+        vpc_id: vpc-dd94f4a6
+    ip: 18.205.41.40
+    nickname: RubenNeonakis
+    node_id: f19bed6a791b48a4ac9bb04f13886be6
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5a.xlarge
+    type: cloud
+    update_time: 1655468417.512691
+-   cloud_instance_id: i-0bc5f412a933e0de1
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: r4.xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-r4.xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468233.5414622
+    extra:
+        architecture: x86_64
+        dns: ec2-52-207-232-90.compute-1.amazonaws.com
+        instance_id: i-0bc5f412a933e0de1
+        instance_tags:
+            CreatedWith: CLAP
+            Name: JeanBarer-9b2a3de2
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-25-233.ec2.internal
+        private_ip: 172.31.25.233
+        subnet_id: subnet-9bf928d1
+        vpc_id: vpc-dd94f4a6
+    ip: 52.207.232.90
+    nickname: JeanBarer
+    node_id: 9b2a3de235e347aea0416c1eb401a860
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r4.xlarge
+    type: cloud
+    update_time: 1655468417.6146057
+-   cloud_instance_id: i-042441b41c29cf38c
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: r4.2xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-r4.2xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468253.1729026
+    extra:
+        architecture: x86_64
+        dns: ec2-18-207-156-156.compute-1.amazonaws.com
+        instance_id: i-042441b41c29cf38c
+        instance_tags:
+            CreatedWith: CLAP
+            Name: AndreFrancis-db25b824
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-21-249.ec2.internal
+        private_ip: 172.31.21.249
+        subnet_id: subnet-9bf928d1
+        vpc_id: vpc-dd94f4a6
+    ip: 18.207.156.156
+    nickname: AndreFrancis
+    node_id: db25b824d622403dba55084b5a398338
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r4.2xlarge
+    type: cloud
+    update_time: 1655468417.7198603
+-   cloud_instance_id: i-004ded2531cc596d9
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: m4.2xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-m4.2xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468273.0486193
+    extra:
+        architecture: x86_64
+        dns: ec2-184-72-193-46.compute-1.amazonaws.com
+        instance_id: i-004ded2531cc596d9
+        instance_tags:
+            CreatedWith: CLAP
+            Name: JeanneChehebar-8b93f28c
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-87-252.ec2.internal
+        private_ip: 172.31.87.252
+        subnet_id: subnet-75555a5a
+        vpc_id: vpc-dd94f4a6
+    ip: 184.72.193.46
+    nickname: JeanneChehebar
+    node_id: 8b93f28ce5374ab3962cd18313015669
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-m4.2xlarge
+    type: cloud
+    update_time: 1655468417.8219857
+-   cloud_instance_id: i-016d9f1ffde0e4c19
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: r5.2xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-r5.2xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468289.1110914
+    extra:
+        architecture: x86_64
+        dns: ec2-54-166-112-136.compute-1.amazonaws.com
+        instance_id: i-016d9f1ffde0e4c19
+        instance_tags:
+            CreatedWith: CLAP
+            Name: AndrewCovington-99cd2efb
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-83-140.ec2.internal
+        private_ip: 172.31.83.140
+        subnet_id: subnet-75555a5a
+        vpc_id: vpc-dd94f4a6
+    ip: 54.166.112.136
+    nickname: AndrewCovington
+    node_id: 99cd2efb8ba44389911fa0122709cc52
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5.2xlarge
+    type: cloud
+    update_time: 1655468417.9245536
+-   cloud_instance_id: i-0101e799fb5976eca
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: r5a.2xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-r5a.2xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468304.3156068
+    extra:
+        architecture: x86_64
+        dns: ec2-44-202-11-18.compute-1.amazonaws.com
+        instance_id: i-0101e799fb5976eca
+        instance_tags:
+            CreatedWith: CLAP
+            Name: MichaelStalvey-5311ef8a
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-84-84.ec2.internal
+        private_ip: 172.31.84.84
+        subnet_id: subnet-75555a5a
+        vpc_id: vpc-dd94f4a6
+    ip: 44.202.11.18
+    nickname: MichaelStalvey
+    node_id: 5311ef8ac24246ec9f1ec899d3992d7c
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5a.2xlarge
+    type: cloud
+    update_time: 1655468418.0272012
+-   cloud_instance_id: i-01f7abc9f9a9ffd34
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: c5.4xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-c5.4xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468321.7622519
+    extra:
+        architecture: x86_64
+        dns: ec2-3-85-10-108.compute-1.amazonaws.com
+        instance_id: i-01f7abc9f9a9ffd34
+        instance_tags:
+            CreatedWith: CLAP
+            Name: DarylFaulkner-d02d2e02
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-16-163.ec2.internal
+        private_ip: 172.31.16.163
+        subnet_id: subnet-9bf928d1
+        vpc_id: vpc-dd94f4a6
+    ip: 3.85.10.108
+    nickname: DarylFaulkner
+    node_id: d02d2e024ec344ddb82f034ea28a559e
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-c5.4xlarge
+    type: cloud
+    update_time: 1655468418.1294715
+-   cloud_instance_id: i-0f134b85e0d44a69c
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: r5.4xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-r5.4xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468338.454666
+    extra:
+        architecture: x86_64
+        dns: ec2-3-239-124-111.compute-1.amazonaws.com
+        instance_id: i-0f134b85e0d44a69c
+        instance_tags:
+            CreatedWith: CLAP
+            Name: EdwinMccutcheon-398eb0f8
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-61-199.ec2.internal
+        private_ip: 172.31.61.199
+        subnet_id: subnet-3343f63c
+        vpc_id: vpc-dd94f4a6
+    ip: 3.239.124.111
+    nickname: EdwinMccutcheon
+    node_id: 398eb0f86b774d158167752db646f2de
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5.4xlarge
+    type: cloud
+    update_time: 1655468418.232594
+-   cloud_instance_id: i-0ec6757e166eb5620
+    cloud_lifecycle: normal
+    configuration:
+        instance:
+            boot_disk_device: null
+            boot_disk_iops: null
+            boot_disk_size: 16
+            boot_disk_snapshot: null
+            boot_disk_type: null
+            flavor: x1e.2xlarge
+            image_id: ami-0650ed74180c860f3
+            instance_config_id: lammps-x1e.2xlarge
+            login: login-ubuntu
+            network_ids: []
+            placement_group: null
+            price: null
+            provider: aws-config-us-east-1
+            security_group: open-security-group
+            timeout: null
+        login:
+            keypair_name: otavio_aws_2022_key
+            keypair_private_file: key.pem
+            keypair_public_file: key.pub
+            login_config_id: login-ubuntu
+            ssh_port: 22
+            sudo: true
+            sudo_user: root
+            user: ubuntu
+        provider:
+            access_keyfile: ec2_access_key.pub
+            provider: aws
+            provider_config_id: aws-config-us-east-1
+            region: us-east-1
+            secret_access_keyfile: ec2_access_key.pem
+            url: null
+            vpc: null
+    creation_time: 1655468368.0390515
+    extra:
+        architecture: x86_64
+        dns: ec2-3-83-248-71.compute-1.amazonaws.com
+        instance_id: i-0ec6757e166eb5620
+        instance_tags:
+            CreatedWith: CLAP
+            Name: SalvadorMcnamara-6ab69f77
+            owner: otavio.napoli
+            principalId: AIDATSRODRVJXBE5IBILK
+        private_dns: ip-172-31-23-68.ec2.internal
+        private_ip: 172.31.23.68
+        subnet_id: subnet-9bf928d1
+        vpc_id: vpc-dd94f4a6
+    ip: 3.83.248.71
+    nickname: SalvadorMcnamara
+    node_id: 6ab69f7791f44afeb4f634882db0f078
+    roles:
+    - lammps
+    status: reachable
+    tags:
+        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-x1e.2xlarge
+    type: cloud
+    update_time: 1655468418.3389137
