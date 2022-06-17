@@ -1,4 +1,4 @@
--   cloud_instance_id: i-08fc1b9a467af9da7
+-   cloud_instance_id: i-046310ea085e2ae4d
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -34,31 +34,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468073.2280767
+    creation_time: 1655477478.1717432
     extra:
         architecture: x86_64
-        dns: ec2-34-235-128-173.compute-1.amazonaws.com
-        instance_id: i-08fc1b9a467af9da7
+        dns: ec2-34-207-185-4.compute-1.amazonaws.com
+        instance_id: i-046310ea085e2ae4d
         instance_tags:
             CreatedWith: CLAP
-            Name: AndrewYoung-a33c25ce
+            Name: WilliamLouder-59794c67
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-19-246.ec2.internal
-        private_ip: 172.31.19.246
+        private_dns: ip-172-31-18-196.ec2.internal
+        private_ip: 172.31.18.196
         subnet_id: subnet-9bf928d1
         vpc_id: vpc-dd94f4a6
-    ip: 34.235.128.173
-    nickname: AndrewYoung
-    node_id: a33c25ce386f40c7a56203c42a53b94b
+    ip: 34.207.185.4
+    nickname: WilliamLouder
+    node_id: 59794c67db354b7f87340624c04e4dd0
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-type-t2.medium
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-type-t2.medium
     type: cloud
-    update_time: 1655468416.8937182
--   cloud_instance_id: i-0c9c043b95ee9f14b
+    update_time: 1655477787.6234488
+-   cloud_instance_id: i-09fedbcae0018124c
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -94,31 +94,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468104.9969254
+    creation_time: 1655477505.1736822
     extra:
         architecture: x86_64
-        dns: ec2-3-234-239-115.compute-1.amazonaws.com
-        instance_id: i-0c9c043b95ee9f14b
+        dns: ec2-44-201-15-137.compute-1.amazonaws.com
+        instance_id: i-09fedbcae0018124c
         instance_tags:
             CreatedWith: CLAP
-            Name: BrianKeffer-0e4d5dc5
+            Name: BarbaraMorgan-af385a34
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-52-208.ec2.internal
-        private_ip: 172.31.52.208
-        subnet_id: subnet-3343f63c
+        private_dns: ip-172-31-8-208.ec2.internal
+        private_ip: 172.31.8.208
+        subnet_id: subnet-bbe700dc
         vpc_id: vpc-dd94f4a6
-    ip: 3.234.239.115
-    nickname: BrianKeffer
-    node_id: 0e4d5dc54b4d47c4a17f948a4f3f5662
+    ip: 44.201.15.137
+    nickname: BarbaraMorgan
+    node_id: af385a34e484447bbad51afad3beb5c8
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-type-t2.large
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-type-t2.large
     type: cloud
-    update_time: 1655468417.0005977
--   cloud_instance_id: i-0073d08bbc5984246
+    update_time: 1655477787.7300134
+-   cloud_instance_id: i-020a77dc9a5739185
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -154,31 +154,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468125.1604338
+    creation_time: 1655477519.8868082
     extra:
         architecture: x86_64
-        dns: ec2-3-84-250-161.compute-1.amazonaws.com
-        instance_id: i-0073d08bbc5984246
+        dns: ec2-54-85-198-15.compute-1.amazonaws.com
+        instance_id: i-020a77dc9a5739185
         instance_tags:
             CreatedWith: CLAP
-            Name: JerryLindsay-24757db2
+            Name: SusanSchwalb-4845d979
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-93-85.ec2.internal
-        private_ip: 172.31.93.85
+        private_dns: ip-172-31-90-111.ec2.internal
+        private_ip: 172.31.90.111
         subnet_id: subnet-75555a5a
         vpc_id: vpc-dd94f4a6
-    ip: 3.84.250.161
-    nickname: JerryLindsay
-    node_id: 24757db2e5f34f918612837a477bc56f
+    ip: 54.85.198.15
+    nickname: SusanSchwalb
+    node_id: 4845d9798a284a6c9186c949c3cbb3d4
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-c5.large
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-c5.large
     type: cloud
-    update_time: 1655468417.1036081
--   cloud_instance_id: i-0e880502a49bcfcf6
+    update_time: 1655477787.8323088
+-   cloud_instance_id: i-0ec26d18f42961d4a
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -214,31 +214,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468148.8402405
+    creation_time: 1655477537.23729
     extra:
         architecture: x86_64
-        dns: ec2-54-87-195-2.compute-1.amazonaws.com
-        instance_id: i-0e880502a49bcfcf6
+        dns: ec2-50-19-62-215.compute-1.amazonaws.com
+        instance_id: i-0ec26d18f42961d4a
         instance_tags:
             CreatedWith: CLAP
-            Name: ThomasRamirez-ecb1fd4e
+            Name: GladysLee-bd768c6a
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-21-0.ec2.internal
-        private_ip: 172.31.21.0
+        private_dns: ip-172-31-29-142.ec2.internal
+        private_ip: 172.31.29.142
         subnet_id: subnet-9bf928d1
         vpc_id: vpc-dd94f4a6
-    ip: 54.87.195.2
-    nickname: ThomasRamirez
-    node_id: ecb1fd4e4ba54a40974311b2e1324c59
+    ip: 50.19.62.215
+    nickname: GladysLee
+    node_id: bd768c6a66f445e7a11351a667e42b8a
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-m5.2xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-m5.2xlarge
     type: cloud
-    update_time: 1655468417.2060769
--   cloud_instance_id: i-0aa1778592d79296c
+    update_time: 1655477787.9407728
+-   cloud_instance_id: i-0c63b6b2b37d8e405
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -274,31 +274,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468167.416826
+    creation_time: 1655477553.1369417
     extra:
         architecture: x86_64
-        dns: ec2-52-23-175-159.compute-1.amazonaws.com
-        instance_id: i-0aa1778592d79296c
+        dns: ec2-52-87-218-250.compute-1.amazonaws.com
+        instance_id: i-0c63b6b2b37d8e405
         instance_tags:
             CreatedWith: CLAP
-            Name: EdwardBandy-295d785c
+            Name: ShaneMadore-fcd71ec3
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-92-147.ec2.internal
-        private_ip: 172.31.92.147
-        subnet_id: subnet-75555a5a
+        private_dns: ip-172-31-31-63.ec2.internal
+        private_ip: 172.31.31.63
+        subnet_id: subnet-9bf928d1
         vpc_id: vpc-dd94f4a6
-    ip: 52.23.175.159
-    nickname: EdwardBandy
-    node_id: 295d785cdc184ba08fe2f0a97dd17c48
+    ip: 52.87.218.250
+    nickname: ShaneMadore
+    node_id: fcd71ec358ca49bcb6e43257a90b5b68
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5.xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-r5.xlarge
     type: cloud
-    update_time: 1655468417.3086188
--   cloud_instance_id: i-0ecf85520a0dfe907
+    update_time: 1655477788.045034
+-   cloud_instance_id: i-0d1fb153ae97e2e08
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -334,31 +334,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468191.392047
+    creation_time: 1655477573.3623931
     extra:
         architecture: x86_64
-        dns: ec2-3-80-110-155.compute-1.amazonaws.com
-        instance_id: i-0ecf85520a0dfe907
+        dns: ec2-3-86-167-229.compute-1.amazonaws.com
+        instance_id: i-0d1fb153ae97e2e08
         instance_tags:
             CreatedWith: CLAP
-            Name: CarlTravers-df296cc7
+            Name: KennethLeslie-419951bb
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-23-36.ec2.internal
-        private_ip: 172.31.23.36
-        subnet_id: subnet-9bf928d1
+        private_dns: ip-172-31-82-186.ec2.internal
+        private_ip: 172.31.82.186
+        subnet_id: subnet-75555a5a
         vpc_id: vpc-dd94f4a6
-    ip: 3.80.110.155
-    nickname: CarlTravers
-    node_id: df296cc77ba94ce09571104c02c4f22b
+    ip: 3.86.167.229
+    nickname: KennethLeslie
+    node_id: 419951bb461247c68b34115e596fb2da
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-m5a.2xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-m5a.2xlarge
     type: cloud
-    update_time: 1655468417.4104612
--   cloud_instance_id: i-0e6b8caf22dff9bd9
+    update_time: 1655477788.146883
+-   cloud_instance_id: i-09c073d37862da62a
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -394,31 +394,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468213.749584
+    creation_time: 1655477587.8548768
     extra:
         architecture: x86_64
-        dns: ec2-18-205-41-40.compute-1.amazonaws.com
-        instance_id: i-0e6b8caf22dff9bd9
+        dns: ec2-54-173-114-75.compute-1.amazonaws.com
+        instance_id: i-09c073d37862da62a
         instance_tags:
             CreatedWith: CLAP
-            Name: RubenNeonakis-f19bed6a
+            Name: SharonWarner-7b302524
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-60-30.ec2.internal
-        private_ip: 172.31.60.30
-        subnet_id: subnet-3343f63c
+        private_dns: ip-172-31-86-57.ec2.internal
+        private_ip: 172.31.86.57
+        subnet_id: subnet-75555a5a
         vpc_id: vpc-dd94f4a6
-    ip: 18.205.41.40
-    nickname: RubenNeonakis
-    node_id: f19bed6a791b48a4ac9bb04f13886be6
+    ip: 54.173.114.75
+    nickname: SharonWarner
+    node_id: 7b30252402984d268d838fc9a8468fb7
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5a.xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-r5a.xlarge
     type: cloud
-    update_time: 1655468417.512691
--   cloud_instance_id: i-0bc5f412a933e0de1
+    update_time: 1655477788.2490416
+-   cloud_instance_id: i-033a80774c86771d3
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -454,31 +454,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468233.5414622
+    creation_time: 1655477610.5293798
     extra:
         architecture: x86_64
-        dns: ec2-52-207-232-90.compute-1.amazonaws.com
-        instance_id: i-0bc5f412a933e0de1
+        dns: ec2-54-234-179-245.compute-1.amazonaws.com
+        instance_id: i-033a80774c86771d3
         instance_tags:
             CreatedWith: CLAP
-            Name: JeanBarer-9b2a3de2
+            Name: GeorginaLy-055a1b8e
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-25-233.ec2.internal
-        private_ip: 172.31.25.233
+        private_dns: ip-172-31-31-80.ec2.internal
+        private_ip: 172.31.31.80
         subnet_id: subnet-9bf928d1
         vpc_id: vpc-dd94f4a6
-    ip: 52.207.232.90
-    nickname: JeanBarer
-    node_id: 9b2a3de235e347aea0416c1eb401a860
+    ip: 54.234.179.245
+    nickname: GeorginaLy
+    node_id: 055a1b8ed33e4070b12f8544aea86cd2
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r4.xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-r4.xlarge
     type: cloud
-    update_time: 1655468417.6146057
--   cloud_instance_id: i-042441b41c29cf38c
+    update_time: 1655477788.351684
+-   cloud_instance_id: i-03e3192abd9ee7288
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -514,31 +514,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468253.1729026
+    creation_time: 1655477631.14753
     extra:
         architecture: x86_64
-        dns: ec2-18-207-156-156.compute-1.amazonaws.com
-        instance_id: i-042441b41c29cf38c
+        dns: ec2-54-221-157-24.compute-1.amazonaws.com
+        instance_id: i-03e3192abd9ee7288
         instance_tags:
             CreatedWith: CLAP
-            Name: AndreFrancis-db25b824
+            Name: SarahDemello-1c674064
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-21-249.ec2.internal
-        private_ip: 172.31.21.249
-        subnet_id: subnet-9bf928d1
+        private_dns: ip-172-31-94-90.ec2.internal
+        private_ip: 172.31.94.90
+        subnet_id: subnet-75555a5a
         vpc_id: vpc-dd94f4a6
-    ip: 18.207.156.156
-    nickname: AndreFrancis
-    node_id: db25b824d622403dba55084b5a398338
+    ip: 54.221.157.24
+    nickname: SarahDemello
+    node_id: 1c674064c6324a90a13bf6b092afd80a
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r4.2xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-r4.2xlarge
     type: cloud
-    update_time: 1655468417.7198603
--   cloud_instance_id: i-004ded2531cc596d9
+    update_time: 1655477788.4539852
+-   cloud_instance_id: i-0cd0fd55688fba5d7
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -574,31 +574,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468273.0486193
+    creation_time: 1655477653.654028
     extra:
         architecture: x86_64
-        dns: ec2-184-72-193-46.compute-1.amazonaws.com
-        instance_id: i-004ded2531cc596d9
+        dns: ec2-54-226-175-215.compute-1.amazonaws.com
+        instance_id: i-0cd0fd55688fba5d7
         instance_tags:
             CreatedWith: CLAP
-            Name: JeanneChehebar-8b93f28c
+            Name: BoydWalton-5b9555a2
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-87-252.ec2.internal
-        private_ip: 172.31.87.252
-        subnet_id: subnet-75555a5a
+        private_dns: ip-172-31-16-217.ec2.internal
+        private_ip: 172.31.16.217
+        subnet_id: subnet-9bf928d1
         vpc_id: vpc-dd94f4a6
-    ip: 184.72.193.46
-    nickname: JeanneChehebar
-    node_id: 8b93f28ce5374ab3962cd18313015669
+    ip: 54.226.175.215
+    nickname: BoydWalton
+    node_id: 5b9555a28ceb47e0b64aa6eafe108c9a
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-m4.2xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-m4.2xlarge
     type: cloud
-    update_time: 1655468417.8219857
--   cloud_instance_id: i-016d9f1ffde0e4c19
+    update_time: 1655477788.5582156
+-   cloud_instance_id: i-01ff742ba2bf7ef31
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -634,31 +634,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468289.1110914
+    creation_time: 1655477671.0723004
     extra:
         architecture: x86_64
-        dns: ec2-54-166-112-136.compute-1.amazonaws.com
-        instance_id: i-016d9f1ffde0e4c19
+        dns: ec2-34-228-54-108.compute-1.amazonaws.com
+        instance_id: i-01ff742ba2bf7ef31
         instance_tags:
             CreatedWith: CLAP
-            Name: AndrewCovington-99cd2efb
+            Name: MattieRousse-dc8897c9
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-83-140.ec2.internal
-        private_ip: 172.31.83.140
-        subnet_id: subnet-75555a5a
+        private_dns: ip-172-31-25-231.ec2.internal
+        private_ip: 172.31.25.231
+        subnet_id: subnet-9bf928d1
         vpc_id: vpc-dd94f4a6
-    ip: 54.166.112.136
-    nickname: AndrewCovington
-    node_id: 99cd2efb8ba44389911fa0122709cc52
+    ip: 34.228.54.108
+    nickname: MattieRousse
+    node_id: dc8897c9bd31486dab80009367ef3385
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5.2xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-r5.2xlarge
     type: cloud
-    update_time: 1655468417.9245536
--   cloud_instance_id: i-0101e799fb5976eca
+    update_time: 1655477788.6607714
+-   cloud_instance_id: i-0539f2ec979c8718e
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -694,31 +694,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468304.3156068
+    creation_time: 1655477686.6354647
     extra:
         architecture: x86_64
-        dns: ec2-44-202-11-18.compute-1.amazonaws.com
-        instance_id: i-0101e799fb5976eca
+        dns: ec2-44-202-243-113.compute-1.amazonaws.com
+        instance_id: i-0539f2ec979c8718e
         instance_tags:
             CreatedWith: CLAP
-            Name: MichaelStalvey-5311ef8a
+            Name: MaryLewis-98eaa8f4
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-84-84.ec2.internal
-        private_ip: 172.31.84.84
+        private_dns: ip-172-31-83-206.ec2.internal
+        private_ip: 172.31.83.206
         subnet_id: subnet-75555a5a
         vpc_id: vpc-dd94f4a6
-    ip: 44.202.11.18
-    nickname: MichaelStalvey
-    node_id: 5311ef8ac24246ec9f1ec899d3992d7c
+    ip: 44.202.243.113
+    nickname: MaryLewis
+    node_id: 98eaa8f47b444cf3afc295102886c2ac
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5a.2xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-r5a.2xlarge
     type: cloud
-    update_time: 1655468418.0272012
--   cloud_instance_id: i-01f7abc9f9a9ffd34
+    update_time: 1655477788.7676032
+-   cloud_instance_id: i-010c4a66da843750a
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -754,31 +754,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468321.7622519
+    creation_time: 1655477701.85247
     extra:
         architecture: x86_64
-        dns: ec2-3-85-10-108.compute-1.amazonaws.com
-        instance_id: i-01f7abc9f9a9ffd34
+        dns: ec2-3-89-107-165.compute-1.amazonaws.com
+        instance_id: i-010c4a66da843750a
         instance_tags:
             CreatedWith: CLAP
-            Name: DarylFaulkner-d02d2e02
+            Name: DerekBenningfield-9b52a6a9
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-16-163.ec2.internal
-        private_ip: 172.31.16.163
-        subnet_id: subnet-9bf928d1
+        private_dns: ip-172-31-94-14.ec2.internal
+        private_ip: 172.31.94.14
+        subnet_id: subnet-75555a5a
         vpc_id: vpc-dd94f4a6
-    ip: 3.85.10.108
-    nickname: DarylFaulkner
-    node_id: d02d2e024ec344ddb82f034ea28a559e
+    ip: 3.89.107.165
+    nickname: DerekBenningfield
+    node_id: 9b52a6a911cd401bb4c0e7985a12089a
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-c5.4xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-c5.4xlarge
     type: cloud
-    update_time: 1655468418.1294715
--   cloud_instance_id: i-0f134b85e0d44a69c
+    update_time: 1655477788.8696187
+-   cloud_instance_id: i-03d3318f316efb1f3
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -814,31 +814,31 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468338.454666
+    creation_time: 1655477716.992264
     extra:
         architecture: x86_64
-        dns: ec2-3-239-124-111.compute-1.amazonaws.com
-        instance_id: i-0f134b85e0d44a69c
+        dns: ec2-3-90-212-143.compute-1.amazonaws.com
+        instance_id: i-03d3318f316efb1f3
         instance_tags:
             CreatedWith: CLAP
-            Name: EdwinMccutcheon-398eb0f8
+            Name: RyanOliver-b73ea280
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-61-199.ec2.internal
-        private_ip: 172.31.61.199
-        subnet_id: subnet-3343f63c
+        private_dns: ip-172-31-22-174.ec2.internal
+        private_ip: 172.31.22.174
+        subnet_id: subnet-9bf928d1
         vpc_id: vpc-dd94f4a6
-    ip: 3.239.124.111
-    nickname: EdwinMccutcheon
-    node_id: 398eb0f86b774d158167752db646f2de
+    ip: 3.90.212.143
+    nickname: RyanOliver
+    node_id: b73ea280daca4f91a50b13844ba26b3c
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-r5.4xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-r5.4xlarge
     type: cloud
-    update_time: 1655468418.232594
--   cloud_instance_id: i-0ec6757e166eb5620
+    update_time: 1655477788.9762025
+-   cloud_instance_id: i-0c44f9ec6d07a3c87
     cloud_lifecycle: normal
     configuration:
         instance:
@@ -874,27 +874,27 @@
             secret_access_keyfile: ec2_access_key.pem
             url: null
             vpc: null
-    creation_time: 1655468368.0390515
+    creation_time: 1655477762.514699
     extra:
         architecture: x86_64
-        dns: ec2-3-83-248-71.compute-1.amazonaws.com
-        instance_id: i-0ec6757e166eb5620
+        dns: ec2-18-234-35-208.compute-1.amazonaws.com
+        instance_id: i-0c44f9ec6d07a3c87
         instance_tags:
             CreatedWith: CLAP
-            Name: SalvadorMcnamara-6ab69f77
+            Name: BrittanyLohmann-17505645
             owner: otavio.napoli
             principalId: AIDATSRODRVJXBE5IBILK
-        private_dns: ip-172-31-23-68.ec2.internal
-        private_ip: 172.31.23.68
+        private_dns: ip-172-31-31-113.ec2.internal
+        private_ip: 172.31.31.113
         subnet_id: subnet-9bf928d1
         vpc_id: vpc-dd94f4a6
-    ip: 3.83.248.71
-    nickname: SalvadorMcnamara
-    node_id: 6ab69f7791f44afeb4f634882db0f078
+    ip: 18.234.35.208
+    nickname: BrittanyLohmann
+    node_id: 17505645616247a79c8f70ffd08778c1
     roles:
     - lammps
     status: reachable
     tags:
-        .cluster:cluster-73ef7871cf494093b8cfe1651ca4d68e: cluster-lammps-x1e.2xlarge
+        .cluster:cluster-6ac142b83b4b4b72920c8ec9bfee8a62: cluster-lammps-x1e.2xlarge
     type: cloud
-    update_time: 1655468418.3389137
+    update_time: 1655477789.0783322

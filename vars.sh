@@ -4,7 +4,7 @@
 
 JUPYTER_PORT=8889			    # Default Jupyter Port
 CONTAINER_CMD="docker"                      # Aplicação de container a ser utilizada
-CONTAINER_IMAGE="mo833-clap"                # Nome da imagem
+CONTAINER_IMAGE="clap-docker"               # Nome da imagem
 VOLUME_DIR="$(realpath $(pwd))"
 WORK_DIR="$(realpath $(pwd))/CLAP"          # Diretório
 CLAP="$(realpath $(pwd))/CLAP"              # CLAP implementation root dir
