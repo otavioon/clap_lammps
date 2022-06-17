@@ -1,0 +1,3 @@
+clap_config/private/*
+clap_config/storage/*
+.*
